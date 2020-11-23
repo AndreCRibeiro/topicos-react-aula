@@ -41,14 +41,14 @@ const Auth = () => {
             onClick={() => setSingin(true)}
             color={signin ? "#fff" : "#ffffff7f"}
           >
-            SignIn
+            Login
           </Title>
           <Title
             onClick={() => setSingin(false)}
             color={!signin ? "#fff" : "#ffffff7f"}
             ml={20}
           >
-            SignUp
+            Cadastro
           </Title>
         </Row>
         <form onSubmit={handleSubmit(onSubit)}>

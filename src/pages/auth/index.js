@@ -41,7 +41,7 @@ const Auth = () => {
             onClick={() => setSingin(true)}
             color={signin ? "#fff" : "#ffffff7f"}
           >
-            Login
+            Login Teste
           </Title>
           <Title
             onClick={() => setSingin(false)}
